@@ -20,7 +20,10 @@ dependencies:
       path: permission_handler
   enum_to_string: ^2.0.1
   twilio_programmable_video_platform_interface:
-    path: ../programmable_video_platform_interface
+    git:
+      url: https://github.com/OffSight-Solutions/flutter_twilio-programmable-video_fork.git
+      ref: releases/programmable-video-v0.11.0+1-patched
+      path: programmable_video_platform_interface
   collection: ^1.15.0
 
 dev_dependencies:
