@@ -13,7 +13,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  permission_handler: ^7.0.0
+  permission_handler: #^7.0.0
+    git:
+      url: https://github.com/OffSight-Solutions/flutter_permission_handler_fork.git
+      ref: releases/permission_handler_7.2.0-patched
+      path: permission_handler
   enum_to_string: ^2.0.1
   twilio_programmable_video_platform_interface:
     path: ../programmable_video_platform_interface
